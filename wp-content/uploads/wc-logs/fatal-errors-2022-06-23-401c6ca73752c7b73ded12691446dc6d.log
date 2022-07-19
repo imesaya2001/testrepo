@@ -1,0 +1,8 @@
+2022-06-23T17:01:25+00:00 CRITICAL Uncaught Exception: Unable to get range edges in /bitnami/wordpress/wp-content/plugins/woocommerce-payments/vendor/automattic/jetpack-sync/src/replicastore/class-table-checksum.php:713
+Stack trace:
+#0 /bitnami/wordpress/wp-content/plugins/woocommerce-payments/vendor/automattic/jetpack-sync/src/class-replicastore.php(1415): Automattic\Jetpack\Sync\Replicastore\Table_Checksum->get_range_edges()
+#1 /bitnami/wordpress/wp-content/plugins/woocommerce-payments/vendor/automattic/jetpack-sync/src/class-replicastore.php(1323): Automattic\Jetpack\Sync\Replicastore->calculate_buckets()
+#2 /bitnami/wordpress/wp-content/plugins/woocommerce-payments/vendor/automattic/jetpack-sync/src/class-replicastore.php(288): Automattic\Jetpack\Sync\Replicastore->checksum_histogram()
+#3 /bitnami/wordpress/wp-content/plugins/woocommerce-payments/vendor/automattic/jetpack-sync/src/class-actions.php(981): Automattic\Jetpack\Sync\Replicastore->post_meta_checksum()
+#4 /bitnami/wordpress/wp-content/plugins/woocommerce-payments/vendor/automatti in /bitnami/wordpress/wp-content/plugins/woocommerce-payments/vendor/automattic/jetpack-sync/src/replicastore/class-table-checksum.php on line 713
+

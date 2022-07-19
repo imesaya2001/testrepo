@@ -1,0 +1,359 @@
+Log created: 2022-01-04 15:27:41
+Type: restore
+[2022-01-04 15:27:41][notice]init restore data
+[2022-01-04 15:27:41][notice]Start restoring www.sripic.com_wpvivid-61ce37f9a00f4_2021-12-30-22-51_backup_all.part002.zip
+[2022-01-04 15:27:41][notice]extract root:/opt/bitnami/wordpress/wp-content/wpvividbackups/
+[2022-01-04 15:27:41][notice]start extracting file:/opt/bitnami/wordpress/wp-content/wpvividbackups/www.sripic.com_wpvivid-61ce37f9a00f4_2021-12-30-22-51_backup_all.part002.zip
+[2022-01-04 15:27:41][notice]extract finished file:/opt/bitnami/wordpress/wp-content/wpvividbackups/www.sripic.com_wpvivid-61ce37f9a00f4_2021-12-30-22-51_backup_all.part002.zip
+[2022-01-04 15:27:41][notice]Finished restoring www.sripic.com_wpvivid-61ce37f9a00f4_2021-12-30-22-51_backup_all.part002.zip
+[2022-01-04 15:27:43][notice]Start restoring www.sripic.com_wpvivid-61ce37f9a00f4_2021-12-30-22-51_backup_themes.zip
+[2022-01-04 15:27:43][notice]restore from files:["\/opt\/bitnami\/wordpress\/wp-content\/wpvividbackups\/www.sripic.com_wpvivid-61ce37f9a00f4_2021-12-30-22-51_backup_themes.zip"]
+[2022-01-04 15:27:43][notice]start extracting file:/opt/bitnami/wordpress/wp-content/wpvividbackups/www.sripic.com_wpvivid-61ce37f9a00f4_2021-12-30-22-51_backup_themes.zip
+[2022-01-04 15:27:43][notice]extract finished file:/opt/bitnami/wordpress/wp-content/wpvividbackups/www.sripic.com_wpvivid-61ce37f9a00f4_2021-12-30-22-51_backup_themes.zip
+[2022-01-04 15:27:43][notice]Finished restoring www.sripic.com_wpvivid-61ce37f9a00f4_2021-12-30-22-51_backup_themes.zip
+[2022-01-04 15:27:44][notice]Start restoring www.sripic.com_wpvivid-61ce37f9a00f4_2021-12-30-22-51_backup_content.zip
+[2022-01-04 15:27:44][notice]restore from files:["\/opt\/bitnami\/wordpress\/wp-content\/wpvividbackups\/www.sripic.com_wpvivid-61ce37f9a00f4_2021-12-30-22-51_backup_content.zip"]
+[2022-01-04 15:27:44][notice]start extracting file:/opt/bitnami/wordpress/wp-content/wpvividbackups/www.sripic.com_wpvivid-61ce37f9a00f4_2021-12-30-22-51_backup_content.zip
+[2022-01-04 15:27:44][notice]extract finished file:/opt/bitnami/wordpress/wp-content/wpvividbackups/www.sripic.com_wpvivid-61ce37f9a00f4_2021-12-30-22-51_backup_content.zip
+[2022-01-04 15:27:44][notice]Finished restoring www.sripic.com_wpvivid-61ce37f9a00f4_2021-12-30-22-51_backup_content.zip
+[2022-01-04 15:27:46][notice]Start restoring www.sripic.com_wpvivid-61ce37f9a00f4_2021-12-30-22-51_backup_db.zip
+[2022-01-04 15:27:46][notice]start extracting file:/opt/bitnami/wordpress/wp-content/wpvividbackups/www.sripic.com_wpvivid-61ce37f9a00f4_2021-12-30-22-51_backup_db.zip
+[2022-01-04 15:27:46][notice]extract finished file:/opt/bitnami/wordpress/wp-content/wpvividbackups/www.sripic.com_wpvivid-61ce37f9a00f4_2021-12-30-22-51_backup_db.zip
+[2022-01-04 15:27:46][notice]sql file: www.sripic.com_wpvivid-61ce37f9a00f4_2021-12-30-22-51_backup_db.sql
+[2022-01-04 15:27:46][Warning]wpdb
+[2022-01-04 15:27:46][notice]The test to create table succeeds.
+[2022-01-04 15:27:46][notice]The test to insert into table succeeds.
+[2022-01-04 15:27:46][notice]The test to drop table succeeds.
+[2022-01-04 15:27:46][notice]get max_allowed_packet wpdb 
+[2022-01-04 15:27:46][notice]max_allowed_packet less than 32M :16.00 MB
+[2022-01-04 15:27:46][notice]Start import sql file.
+[2022-01-04 15:27:46][notice]old site url:https://www.sripic.com
+[2022-01-04 15:27:46][notice]old home url:https://www.sripic.com
+[2022-01-04 15:27:46][notice]old content url:https://www.sripic.com/wp-content
+[2022-01-04 15:27:46][notice]old upload url:https://www.sripic.com/wp-content/uploads
+[2022-01-04 15:27:46][notice]old site prefix:wpmz_
+[2022-01-04 15:27:46][notice]Drop table if exist
+[2022-01-04 15:27:46][notice]Create table wp_wc_order_coupon_lookup
+[2022-01-04 15:27:46][notice]lock replace table:wpmz_wc_order_coupon_lookup to :wp_wc_order_coupon_lookup
+[2022-01-04 15:27:46][notice]Dumping table wp_wc_order_coupon_lookup is complete. Start replacing row(s).
+[2022-01-04 15:27:46][notice]Count of rows in wp_wc_order_coupon_lookup: 0
+[2022-01-04 15:27:46][notice]Drop table if exist
+[2022-01-04 15:27:46][notice]Create table wp_options
+[2022-01-04 15:27:46][notice]lock replace table:wpmz_options to :wp_options
+[2022-01-04 15:27:47][notice]Dumping table wp_options is complete. Start replacing row(s).
+[2022-01-04 15:27:47][notice]UPDATE wp_options SET option_name="wp_user_roles" WHERE option_name="wpmz_user_roles";
+[2022-01-04 15:27:47][notice]update query len:86
+[2022-01-04 15:27:47][notice]Count of rows in wp_options: 470
+[2022-01-04 15:27:47][notice]Replace the row in 0 line.
+[2022-01-04 15:27:47][notice]finish replace rows
+[2022-01-04 15:27:47][notice]Drop table if exist
+[2022-01-04 15:27:47][notice]Create table wp_users
+[2022-01-04 15:27:47][notice]lock replace table:wpmz_users to :wp_users
+[2022-01-04 15:27:47][notice]Dumping table wp_users is complete. Start replacing row(s).
+[2022-01-04 15:27:47][notice]Count of rows in wp_users: 2
+[2022-01-04 15:27:47][notice]Replace the row in 0 line.
+[2022-01-04 15:27:47][notice]finish replace rows
+[2022-01-04 15:27:47][notice]Drop table if exist
+[2022-01-04 15:27:47][notice]Create table wp_term_taxonomy
+[2022-01-04 15:27:47][notice]lock replace table:wpmz_term_taxonomy to :wp_term_taxonomy
+[2022-01-04 15:27:47][notice]Dumping table wp_term_taxonomy is complete. Start replacing row(s).
+[2022-01-04 15:27:47][notice]Count of rows in wp_term_taxonomy: 22
+[2022-01-04 15:27:47][notice]Replace the row in 0 line.
+[2022-01-04 15:27:47][notice]finish replace rows
+[2022-01-04 15:27:47][notice]Drop table if exist
+[2022-01-04 15:27:47][notice]Create table wp_term_relationships
+[2022-01-04 15:27:47][notice]lock replace table:wpmz_term_relationships to :wp_term_relationships
+[2022-01-04 15:27:47][notice]Dumping table wp_term_relationships is complete. Start replacing row(s).
+[2022-01-04 15:27:47][Warning]Skip table wp_term_relationships
+[2022-01-04 15:27:47][notice]Drop table if exist
+[2022-01-04 15:27:47][notice]Create table wp_actionscheduler_claims
+[2022-01-04 15:27:47][notice]lock replace table:wpmz_actionscheduler_claims to :wp_actionscheduler_claims
+[2022-01-04 15:27:47][notice]Dumping table wp_actionscheduler_claims is complete. Start replacing row(s).
+[2022-01-04 15:27:47][notice]Count of rows in wp_actionscheduler_claims: 0
+[2022-01-04 15:27:47][notice]Drop table if exist
+[2022-01-04 15:27:47][notice]Create table wp_woocommerce_payment_tokens
+[2022-01-04 15:27:47][notice]lock replace table:wpmz_woocommerce_payment_tokens to :wp_woocommerce_payment_tokens
+[2022-01-04 15:27:47][notice]Dumping table wp_woocommerce_payment_tokens is complete. Start replacing row(s).
+[2022-01-04 15:27:47][notice]Count of rows in wp_woocommerce_payment_tokens: 0
+[2022-01-04 15:27:47][notice]Drop table if exist
+[2022-01-04 15:27:47][notice]Create table wp_woocommerce_order_items
+[2022-01-04 15:27:47][notice]lock replace table:wpmz_woocommerce_order_items to :wp_woocommerce_order_items
+[2022-01-04 15:27:47][notice]Dumping table wp_woocommerce_order_items is complete. Start replacing row(s).
+[2022-01-04 15:27:47][Warning]Skip table wp_woocommerce_order_items
+[2022-01-04 15:27:47][notice]Drop table if exist
+[2022-01-04 15:27:47][notice]Create table wp_woocommerce_downloadable_product_permissions
+[2022-01-04 15:27:47][notice]lock replace table:wpmz_woocommerce_downloadable_product_permissions to :wp_woocommerce_downloadable_product_permissions
+[2022-01-04 15:27:47][notice]Dumping table wp_woocommerce_downloadable_product_permissions is complete. Start replacing row(s).
+[2022-01-04 15:27:47][notice]Count of rows in wp_woocommerce_downloadable_product_permissions: 7
+[2022-01-04 15:27:47][notice]Replace the row in 0 line.
+[2022-01-04 15:27:47][notice]finish replace rows
+[2022-01-04 15:27:47][notice]Drop table if exist
+[2022-01-04 15:27:47][notice]Create table wp_terms
+[2022-01-04 15:27:47][notice]lock replace table:wpmz_terms to :wp_terms
+[2022-01-04 15:27:47][notice]Dumping table wp_terms is complete. Start replacing row(s).
+[2022-01-04 15:27:47][notice]Count of rows in wp_terms: 22
+[2022-01-04 15:27:47][notice]Replace the row in 0 line.
+[2022-01-04 15:27:47][notice]finish replace rows
+[2022-01-04 15:27:47][notice]Drop table if exist
+[2022-01-04 15:27:47][notice]Create table wp_woocommerce_order_itemmeta
+[2022-01-04 15:27:47][notice]lock replace table:wpmz_woocommerce_order_itemmeta to :wp_woocommerce_order_itemmeta
+[2022-01-04 15:27:48][notice]Dumping table wp_woocommerce_order_itemmeta is complete. Start replacing row(s).
+[2022-01-04 15:27:48][notice]Count of rows in wp_woocommerce_order_itemmeta: 160
+[2022-01-04 15:27:48][notice]Replace the row in 0 line.
+[2022-01-04 15:27:48][notice]finish replace rows
+[2022-01-04 15:27:48][notice]Drop table if exist
+[2022-01-04 15:27:48][notice]Create table wp_woocommerce_payment_tokenmeta
+[2022-01-04 15:27:48][notice]lock replace table:wpmz_woocommerce_payment_tokenmeta to :wp_woocommerce_payment_tokenmeta
+[2022-01-04 15:27:48][notice]Dumping table wp_woocommerce_payment_tokenmeta is complete. Start replacing row(s).
+[2022-01-04 15:27:48][notice]Count of rows in wp_woocommerce_payment_tokenmeta: 0
+[2022-01-04 15:27:48][notice]Drop table if exist
+[2022-01-04 15:27:48][notice]Create table wp_dokan_orders
+[2022-01-04 15:27:48][notice]lock replace table:wpmz_dokan_orders to :wp_dokan_orders
+[2022-01-04 15:27:48][notice]Dumping table wp_dokan_orders is complete. Start replacing row(s).
+[2022-01-04 15:27:48][notice]Count of rows in wp_dokan_orders: 10
+[2022-01-04 15:27:48][notice]Replace the row in 0 line.
+[2022-01-04 15:27:48][notice]finish replace rows
+[2022-01-04 15:27:48][notice]Drop table if exist
+[2022-01-04 15:27:48][notice]Create table wp_wpvivid_unused_uploads_files
+[2022-01-04 15:27:48][notice]lock replace table:wpmz_wpvivid_unused_uploads_files to :wp_wpvivid_unused_uploads_files
+[2022-01-04 15:27:48][notice]Dumping table wp_wpvivid_unused_uploads_files is complete. Start replacing row(s).
+[2022-01-04 15:27:48][notice]Count of rows in wp_wpvivid_unused_uploads_files: 0
+[2022-01-04 15:27:48][notice]Drop table if exist
+[2022-01-04 15:27:48][notice]Create table wp_comments
+[2022-01-04 15:27:48][notice]lock replace table:wpmz_comments to :wp_comments
+[2022-01-04 15:27:48][notice]Dumping table wp_comments is complete. Start replacing row(s).
+[2022-01-04 15:27:48][notice]Count of rows in wp_comments: 10
+[2022-01-04 15:27:48][notice]Replace the row in 0 line.
+[2022-01-04 15:27:48][notice]finish replace rows
+[2022-01-04 15:27:48][notice]Drop table if exist
+[2022-01-04 15:27:48][notice]Create table wp_dokan_announcement
+[2022-01-04 15:27:48][notice]lock replace table:wpmz_dokan_announcement to :wp_dokan_announcement
+[2022-01-04 15:27:48][notice]Dumping table wp_dokan_announcement is complete. Start replacing row(s).
+[2022-01-04 15:27:48][notice]Count of rows in wp_dokan_announcement: 0
+[2022-01-04 15:27:48][notice]Drop table if exist
+[2022-01-04 15:27:48][notice]Create table wp_dokan_refund
+[2022-01-04 15:27:48][notice]lock replace table:wpmz_dokan_refund to :wp_dokan_refund
+[2022-01-04 15:27:48][notice]Dumping table wp_dokan_refund is complete. Start replacing row(s).
+[2022-01-04 15:27:48][notice]Count of rows in wp_dokan_refund: 0
+[2022-01-04 15:27:48][notice]Drop table if exist
+[2022-01-04 15:27:48][notice]Create table wp_wc_reserved_stock
+[2022-01-04 15:27:48][notice]lock replace table:wpmz_wc_reserved_stock to :wp_wc_reserved_stock
+[2022-01-04 15:27:48][notice]Dumping table wp_wc_reserved_stock is complete. Start replacing row(s).
+[2022-01-04 15:27:48][notice]Count of rows in wp_wc_reserved_stock: 0
+[2022-01-04 15:27:48][notice]Drop table if exist
+[2022-01-04 15:27:48][notice]Create table wp_woocommerce_log
+[2022-01-04 15:27:48][notice]lock replace table:wpmz_woocommerce_log to :wp_woocommerce_log
+[2022-01-04 15:27:48][notice]Dumping table wp_woocommerce_log is complete. Start replacing row(s).
+[2022-01-04 15:27:48][notice]Count of rows in wp_woocommerce_log: 0
+[2022-01-04 15:27:48][notice]Drop table if exist
+[2022-01-04 15:27:48][notice]Create table wp_posts
+[2022-01-04 15:27:48][notice]lock replace table:wpmz_posts to :wp_posts
+[2022-01-04 15:27:48][notice]Dumping table wp_posts is complete. Start replacing row(s).
+[2022-01-04 15:27:48][notice]Count of rows in wp_posts: 190
+[2022-01-04 15:27:48][notice]Replace the row in 0 line.
+[2022-01-04 15:27:48][notice]finish replace rows
+[2022-01-04 15:27:48][notice]Drop table if exist
+[2022-01-04 15:27:48][notice]Create table wp_dokan_withdraw
+[2022-01-04 15:27:48][notice]lock replace table:wpmz_dokan_withdraw to :wp_dokan_withdraw
+[2022-01-04 15:27:48][notice]Dumping table wp_dokan_withdraw is complete. Start replacing row(s).
+[2022-01-04 15:27:48][notice]Count of rows in wp_dokan_withdraw: 0
+[2022-01-04 15:27:48][notice]Drop table if exist
+[2022-01-04 15:27:48][notice]Create table wp_wc_order_tax_lookup
+[2022-01-04 15:27:48][notice]lock replace table:wpmz_wc_order_tax_lookup to :wp_wc_order_tax_lookup
+[2022-01-04 15:27:48][notice]Dumping table wp_wc_order_tax_lookup is complete. Start replacing row(s).
+[2022-01-04 15:27:48][notice]Count of rows in wp_wc_order_tax_lookup: 0
+[2022-01-04 15:27:48][notice]Drop table if exist
+[2022-01-04 15:27:48][notice]Create table wp_commentmeta
+[2022-01-04 15:27:48][notice]lock replace table:wpmz_commentmeta to :wp_commentmeta
+[2022-01-04 15:27:48][notice]Dumping table wp_commentmeta is complete. Start replacing row(s).
+[2022-01-04 15:27:48][notice]Count of rows in wp_commentmeta: 0
+[2022-01-04 15:27:48][notice]Drop table if exist
+[2022-01-04 15:27:48][notice]Create table wp_actionscheduler_logs
+[2022-01-04 15:27:48][notice]lock replace table:wpmz_actionscheduler_logs to :wp_actionscheduler_logs
+[2022-01-04 15:27:48][notice]Dumping table wp_actionscheduler_logs is complete. Start replacing row(s).
+[2022-01-04 15:27:48][notice]Count of rows in wp_actionscheduler_logs: 3
+[2022-01-04 15:27:48][notice]Replace the row in 0 line.
+[2022-01-04 15:27:48][notice]finish replace rows
+[2022-01-04 15:27:48][notice]Drop table if exist
+[2022-01-04 15:27:48][notice]Create table wp_dokan_vendor_balance
+[2022-01-04 15:27:48][notice]lock replace table:wpmz_dokan_vendor_balance to :wp_dokan_vendor_balance
+[2022-01-04 15:27:48][notice]Dumping table wp_dokan_vendor_balance is complete. Start replacing row(s).
+[2022-01-04 15:27:48][notice]Count of rows in wp_dokan_vendor_balance: 10
+[2022-01-04 15:27:48][notice]Replace the row in 0 line.
+[2022-01-04 15:27:48][notice]finish replace rows
+[2022-01-04 15:27:48][notice]Drop table if exist
+[2022-01-04 15:27:48][notice]Create table wp_wc_category_lookup
+[2022-01-04 15:27:48][notice]lock replace table:wpmz_wc_category_lookup to :wp_wc_category_lookup
+[2022-01-04 15:27:48][notice]Dumping table wp_wc_category_lookup is complete. Start replacing row(s).
+[2022-01-04 15:27:48][notice]Count of rows in wp_wc_category_lookup: 1
+[2022-01-04 15:27:48][notice]Replace the row in 0 line.
+[2022-01-04 15:27:48][notice]finish replace rows
+[2022-01-04 15:27:48][notice]Drop table if exist
+[2022-01-04 15:27:48][notice]Create table wp_woocommerce_shipping_zones
+[2022-01-04 15:27:48][notice]lock replace table:wpmz_woocommerce_shipping_zones to :wp_woocommerce_shipping_zones
+[2022-01-04 15:27:48][notice]Dumping table wp_woocommerce_shipping_zones is complete. Start replacing row(s).
+[2022-01-04 15:27:48][notice]Count of rows in wp_woocommerce_shipping_zones: 0
+[2022-01-04 15:27:48][notice]Drop table if exist
+[2022-01-04 15:27:48][notice]Create table wp_loginizer_logs
+[2022-01-04 15:27:48][notice]lock replace table:wpmz_loginizer_logs to :wp_loginizer_logs
+[2022-01-04 15:27:48][notice]Dumping table wp_loginizer_logs is complete. Start replacing row(s).
+[2022-01-04 15:27:48][notice]Count of rows in wp_loginizer_logs: 3
+[2022-01-04 15:27:48][notice]Replace the row in 0 line.
+[2022-01-04 15:27:48][notice]finish replace rows
+[2022-01-04 15:27:48][notice]Drop table if exist
+[2022-01-04 15:27:48][notice]Create table wp_actionscheduler_actions
+[2022-01-04 15:27:49][notice]lock replace table:wpmz_actionscheduler_actions to :wp_actionscheduler_actions
+[2022-01-04 15:27:49][notice]Dumping table wp_actionscheduler_actions is complete. Start replacing row(s).
+[2022-01-04 15:27:49][notice]Count of rows in wp_actionscheduler_actions: 1
+[2022-01-04 15:27:49][notice]Replace the row in 0 line.
+[2022-01-04 15:27:49][notice]finish replace rows
+[2022-01-04 15:27:49][notice]Drop table if exist
+[2022-01-04 15:27:49][notice]Create table wp_wc_download_log
+[2022-01-04 15:27:49][notice]lock replace table:wpmz_wc_download_log to :wp_wc_download_log
+[2022-01-04 15:27:49][notice]Dumping table wp_wc_download_log is complete. Start replacing row(s).
+[2022-01-04 15:27:49][notice]Count of rows in wp_wc_download_log: 4
+[2022-01-04 15:27:49][notice]Replace the row in 0 line.
+[2022-01-04 15:27:49][notice]finish replace rows
+[2022-01-04 15:27:49][notice]Drop table if exist
+[2022-01-04 15:27:49][notice]Create table wp_wc_tax_rate_classes
+[2022-01-04 15:27:49][notice]lock replace table:wpmz_wc_tax_rate_classes to :wp_wc_tax_rate_classes
+[2022-01-04 15:27:49][notice]Dumping table wp_wc_tax_rate_classes is complete. Start replacing row(s).
+[2022-01-04 15:27:49][notice]Count of rows in wp_wc_tax_rate_classes: 2
+[2022-01-04 15:27:49][notice]Replace the row in 0 line.
+[2022-01-04 15:27:49][notice]finish replace rows
+[2022-01-04 15:27:49][notice]Drop table if exist
+[2022-01-04 15:27:49][notice]Create table wp_wc_admin_note_actions
+[2022-01-04 15:27:49][notice]lock replace table:wpmz_wc_admin_note_actions to :wp_wc_admin_note_actions
+[2022-01-04 15:27:49][notice]Dumping table wp_wc_admin_note_actions is complete. Start replacing row(s).
+[2022-01-04 15:27:49][notice]Count of rows in wp_wc_admin_note_actions: 69
+[2022-01-04 15:27:49][notice]Replace the row in 0 line.
+[2022-01-04 15:27:49][notice]finish replace rows
+[2022-01-04 15:27:49][notice]Drop table if exist
+[2022-01-04 15:27:49][notice]Create table wp_actionscheduler_groups
+[2022-01-04 15:27:49][notice]lock replace table:wpmz_actionscheduler_groups to :wp_actionscheduler_groups
+[2022-01-04 15:27:49][notice]Dumping table wp_actionscheduler_groups is complete. Start replacing row(s).
+[2022-01-04 15:27:49][notice]Count of rows in wp_actionscheduler_groups: 2
+[2022-01-04 15:27:49][notice]Replace the row in 0 line.
+[2022-01-04 15:27:49][notice]finish replace rows
+[2022-01-04 15:27:49][notice]Drop table if exist
+[2022-01-04 15:27:49][notice]Create table wp_woocommerce_tax_rate_locations
+[2022-01-04 15:27:49][notice]lock replace table:wpmz_woocommerce_tax_rate_locations to :wp_woocommerce_tax_rate_locations
+[2022-01-04 15:27:49][notice]Dumping table wp_woocommerce_tax_rate_locations is complete. Start replacing row(s).
+[2022-01-04 15:27:49][notice]Count of rows in wp_woocommerce_tax_rate_locations: 0
+[2022-01-04 15:27:49][notice]Drop table if exist
+[2022-01-04 15:27:49][notice]Create table wp_wc_order_stats
+[2022-01-04 15:27:49][notice]lock replace table:wpmz_wc_order_stats to :wp_wc_order_stats
+[2022-01-04 15:27:49][notice]Dumping table wp_wc_order_stats is complete. Start replacing row(s).
+[2022-01-04 15:27:49][notice]Count of rows in wp_wc_order_stats: 10
+[2022-01-04 15:27:49][notice]Replace the row in 0 line.
+[2022-01-04 15:27:49][notice]finish replace rows
+[2022-01-04 15:27:49][notice]Drop table if exist
+[2022-01-04 15:27:49][notice]Create table wp_links
+[2022-01-04 15:27:49][notice]lock replace table:wpmz_links to :wp_links
+[2022-01-04 15:27:49][notice]Dumping table wp_links is complete. Start replacing row(s).
+[2022-01-04 15:27:49][notice]Count of rows in wp_links: 0
+[2022-01-04 15:27:49][notice]Drop table if exist
+[2022-01-04 15:27:49][notice]Create table wp_woocommerce_sessions
+[2022-01-04 15:27:49][notice]lock replace table:wpmz_woocommerce_sessions to :wp_woocommerce_sessions
+[2022-01-04 15:27:49][notice]Dumping table wp_woocommerce_sessions is complete. Start replacing row(s).
+[2022-01-04 15:27:49][Warning]Skip table wp_woocommerce_sessions
+[2022-01-04 15:27:49][notice]Drop table if exist
+[2022-01-04 15:27:49][notice]Create table wp_woocommerce_tax_rates
+[2022-01-04 15:27:49][notice]lock replace table:wpmz_woocommerce_tax_rates to :wp_woocommerce_tax_rates
+[2022-01-04 15:27:49][notice]Dumping table wp_woocommerce_tax_rates is complete. Start replacing row(s).
+[2022-01-04 15:27:49][notice]Count of rows in wp_woocommerce_tax_rates: 0
+[2022-01-04 15:27:49][notice]Drop table if exist
+[2022-01-04 15:27:49][notice]Create table wp_wc_order_product_lookup
+[2022-01-04 15:27:49][notice]lock replace table:wpmz_wc_order_product_lookup to :wp_wc_order_product_lookup
+[2022-01-04 15:27:49][notice]Dumping table wp_wc_order_product_lookup is complete. Start replacing row(s).
+[2022-01-04 15:27:49][notice]Count of rows in wp_wc_order_product_lookup: 13
+[2022-01-04 15:27:49][notice]Replace the row in 0 line.
+[2022-01-04 15:27:49][notice]finish replace rows
+[2022-01-04 15:27:49][notice]Drop table if exist
+[2022-01-04 15:27:49][notice]Create table wp_postmeta
+[2022-01-04 15:27:49][notice]lock replace table:wpmz_postmeta to :wp_postmeta
+[2022-01-04 15:27:52][notice]Dumping table wp_postmeta is complete. Start replacing row(s).
+[2022-01-04 15:27:52][notice]Count of rows in wp_postmeta: 1889
+[2022-01-04 15:27:52][notice]Replace the row in 0 line.
+[2022-01-04 15:27:52][notice]finish replace rows
+[2022-01-04 15:27:52][notice]Drop table if exist
+[2022-01-04 15:27:52][notice]Create table wp_wc_admin_notes
+[2022-01-04 15:27:52][notice]lock replace table:wpmz_wc_admin_notes to :wp_wc_admin_notes
+[2022-01-04 15:27:52][notice]Dumping table wp_wc_admin_notes is complete. Start replacing row(s).
+[2022-01-04 15:27:52][notice]Count of rows in wp_wc_admin_notes: 64
+[2022-01-04 15:27:52][notice]Replace the row in 0 line.
+[2022-01-04 15:27:52][notice]finish replace rows
+[2022-01-04 15:27:52][notice]Drop table if exist
+[2022-01-04 15:27:52][notice]Create table wp_woocommerce_shipping_zone_methods
+[2022-01-04 15:27:52][notice]lock replace table:wpmz_woocommerce_shipping_zone_methods to :wp_woocommerce_shipping_zone_methods
+[2022-01-04 15:27:52][notice]Dumping table wp_woocommerce_shipping_zone_methods is complete. Start replacing row(s).
+[2022-01-04 15:27:52][notice]Count of rows in wp_woocommerce_shipping_zone_methods: 0
+[2022-01-04 15:27:52][notice]Drop table if exist
+[2022-01-04 15:27:52][notice]Create table wp_wc_customer_lookup
+[2022-01-04 15:27:52][notice]lock replace table:wpmz_wc_customer_lookup to :wp_wc_customer_lookup
+[2022-01-04 15:27:52][notice]Dumping table wp_wc_customer_lookup is complete. Start replacing row(s).
+[2022-01-04 15:27:52][notice]Count of rows in wp_wc_customer_lookup: 4
+[2022-01-04 15:27:52][notice]Replace the row in 0 line.
+[2022-01-04 15:27:52][notice]finish replace rows
+[2022-01-04 15:27:52][notice]Drop table if exist
+[2022-01-04 15:27:52][notice]Create table wp_wc_product_meta_lookup
+[2022-01-04 15:27:52][notice]lock replace table:wpmz_wc_product_meta_lookup to :wp_wc_product_meta_lookup
+[2022-01-04 15:27:52][notice]Dumping table wp_wc_product_meta_lookup is complete. Start replacing row(s).
+[2022-01-04 15:27:52][notice]Count of rows in wp_wc_product_meta_lookup: 23
+[2022-01-04 15:27:52][notice]Replace the row in 0 line.
+[2022-01-04 15:27:52][notice]finish replace rows
+[2022-01-04 15:27:52][notice]Drop table if exist
+[2022-01-04 15:27:52][notice]Create table wp_woocommerce_shipping_zone_locations
+[2022-01-04 15:27:52][notice]lock replace table:wpmz_woocommerce_shipping_zone_locations to :wp_woocommerce_shipping_zone_locations
+[2022-01-04 15:27:52][notice]Dumping table wp_woocommerce_shipping_zone_locations is complete. Start replacing row(s).
+[2022-01-04 15:27:52][notice]Count of rows in wp_woocommerce_shipping_zone_locations: 0
+[2022-01-04 15:27:52][notice]Drop table if exist
+[2022-01-04 15:27:52][notice]Create table wp_wpvivid_scan_result
+[2022-01-04 15:27:52][notice]lock replace table:wpmz_wpvivid_scan_result to :wp_wpvivid_scan_result
+[2022-01-04 15:27:52][notice]Dumping table wp_wpvivid_scan_result is complete. Start replacing row(s).
+[2022-01-04 15:27:52][notice]Count of rows in wp_wpvivid_scan_result: 0
+[2022-01-04 15:27:52][notice]Drop table if exist
+[2022-01-04 15:27:52][notice]Create table wp_usermeta
+[2022-01-04 15:27:52][notice]lock replace table:wpmz_usermeta to :wp_usermeta
+[2022-01-04 15:27:52][notice]Dumping table wp_usermeta is complete. Start replacing row(s).
+[2022-01-04 15:27:52][notice]UPDATE wp_usermeta SET meta_key=REPLACE(meta_key,"wpmz_","wp_") WHERE meta_key LIKE "wpmz\_%";
+[2022-01-04 15:27:52][notice]update query len:94
+[2022-01-04 15:27:52][notice]Drop table if exist
+[2022-01-04 15:27:52][notice]Create table wp_wemail_forms
+[2022-01-04 15:27:52][notice]lock replace table:wpmz_wemail_forms to :wp_wemail_forms
+[2022-01-04 15:27:52][notice]Dumping table wp_wemail_forms is complete. Start replacing row(s).
+[2022-01-04 15:27:52][notice]Count of rows in wp_wemail_forms: 0
+[2022-01-04 15:27:52][notice]Drop table if exist
+[2022-01-04 15:27:52][notice]Create table wp_woocommerce_api_keys
+[2022-01-04 15:27:52][notice]lock replace table:wpmz_woocommerce_api_keys to :wp_woocommerce_api_keys
+[2022-01-04 15:27:52][notice]Dumping table wp_woocommerce_api_keys is complete. Start replacing row(s).
+[2022-01-04 15:27:52][notice]Count of rows in wp_woocommerce_api_keys: 0
+[2022-01-04 15:27:52][notice]Drop table if exist
+[2022-01-04 15:27:52][notice]Create table wp_woocommerce_attribute_taxonomies
+[2022-01-04 15:27:52][notice]lock replace table:wpmz_woocommerce_attribute_taxonomies to :wp_woocommerce_attribute_taxonomies
+[2022-01-04 15:27:52][notice]Dumping table wp_woocommerce_attribute_taxonomies is complete. Start replacing row(s).
+[2022-01-04 15:27:52][notice]Count of rows in wp_woocommerce_attribute_taxonomies: 2
+[2022-01-04 15:27:52][notice]Replace the row in 0 line.
+[2022-01-04 15:27:52][notice]finish replace rows
+[2022-01-04 15:27:52][notice]Drop table if exist
+[2022-01-04 15:27:52][notice]Create table wp_termmeta
+[2022-01-04 15:27:52][notice]lock replace table:wpmz_termmeta to :wp_termmeta
+[2022-01-04 15:27:52][notice]Dumping table wp_termmeta is complete. Start replacing row(s).
+[2022-01-04 15:27:52][notice]Count of rows in wp_termmeta: 7
+[2022-01-04 15:27:52][notice]Replace the row in 0 line.
+[2022-01-04 15:27:52][notice]finish replace rows
+[2022-01-04 15:27:52][notice]Drop table if exist
+[2022-01-04 15:27:52][notice]Create table wp_wc_webhooks
+[2022-01-04 15:27:52][notice]lock replace table:wpmz_wc_webhooks to :wp_wc_webhooks
+[2022-01-04 15:27:52][notice]Dumping table wp_wc_webhooks is complete. Start replacing row(s).
+[2022-01-04 15:27:52][notice]Count of rows in wp_wc_webhooks: 0
+[2022-01-04 15:27:52][notice]UPDATE wp_options SET option_value="http://13.59.249.202" WHERE option_name="siteurl";
+[2022-01-04 15:27:52][notice]update query len:86
+[2022-01-04 15:27:52][notice]UPDATE wp_options SET option_value="http://13.59.249.202" WHERE option_name="home";
+[2022-01-04 15:27:52][notice]update query len:83
+[2022-01-04 15:27:52][notice]Finished restoring www.sripic.com_wpvivid-61ce37f9a00f4_2021-12-30-22-51_backup_db.zip
+[2022-01-04 15:27:54][notice]Restore task completed.
+[2022-01-04 15:27:56][notice]disable maintenance mode
+[2022-01-04 15:27:56][notice]clean file:/opt/bitnami/wordpress/wp-content/wpvividbackups/www.sripic.com_wpvivid-61ce37f9a00f4_2021-12-30-22-51_backup_themes.zip
+[2022-01-04 15:27:56][notice]clean file:/opt/bitnami/wordpress/wp-content/wpvividbackups/www.sripic.com_wpvivid-61ce37f9a00f4_2021-12-30-22-51_backup_content.zip
+[2022-01-04 15:27:56][notice]clean file:/opt/bitnami/wordpress/wp-content/wpvividbackups/www.sripic.com_wpvivid-61ce37f9a00f4_2021-12-30-22-51_backup_db.zip

@@ -1,0 +1,1644 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tijarah\n"
+"POT-Creation-Date: 2020-05-02 05:27+0600\n"
+"PO-Revision-Date: 2020-05-04 00:25+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:11
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:12 inc/redux-framework.php:484
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:22
+msgid "Go to Home"
+msgstr ""
+
+#: archive.php:35 index.php:49 search.php:33
+#: template-parts/shop-layout/shop-fullwidth.php:34
+#: template-parts/shop-layout/shop-left.php:42
+#: template-parts/shop-layout/shop-right.php:35
+msgid "&#10094; Prev"
+msgstr "السابق"
+
+#: archive.php:36 index.php:50 search.php:34
+#: template-parts/shop-layout/shop-fullwidth.php:35
+#: template-parts/shop-layout/shop-left.php:43
+#: template-parts/shop-layout/shop-right.php:36
+msgid "Next &#10095;"
+msgstr "التالي "
+
+#: comments.php:19
+#, php-format
+msgid "One comment on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:24
+#, php-format
+msgctxt "comments title"
+msgid "%1$s comments"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: comments.php:51
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#: comments.php:62
+msgid "Post Comment"
+msgstr "أضف تعليقا"
+
+#: comments.php:63
+msgid "Leave a Reply"
+msgstr "اترك رد"
+
+#: comments.php:68
+msgid "Type your comment...."
+msgstr "اكتب تعليقك ...."
+
+#: comments.php:74
+msgid "Type your name...."
+msgstr ""
+
+#: comments.php:79
+msgid "Type your email...."
+msgstr ""
+
+#: dokan/store-sidebar.php:15
+msgid "Store Product Category"
+msgstr ""
+
+#: dokan/store-sidebar.php:19
+msgid "Store Location"
+msgstr ""
+
+#: dokan/store-sidebar.php:23
+msgid "Store Time"
+msgstr ""
+
+#: dokan/store-sidebar.php:27
+msgid "Contact Vendor"
+msgstr ""
+
+#: dokan/store.php:55
+msgid "No products were found of this vendor!"
+msgstr ""
+
+#: dokan/widgets/store-contact-form.php:14
+msgid "Your Name"
+msgstr ""
+
+#: dokan/widgets/store-contact-form.php:17
+msgid "you@example.com"
+msgstr ""
+
+#: dokan/widgets/store-contact-form.php:20
+msgid "Type your messsage..."
+msgstr ""
+
+#: dokan/widgets/store-contact-form.php:27
+msgid "Send Message"
+msgstr ""
+
+#: footer.php:82
+msgid "Copyright"
+msgstr ""
+
+#: footer.php:82
+msgid " All Rights Reserved."
+msgstr ""
+
+#: functions.php:20
+msgid "Primary"
+msgstr ""
+
+#: functions.php:65
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:67 functions.php:77 functions.php:87
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:75
+msgid "WooCommerce Store Sidebar"
+msgstr ""
+
+#: functions.php:85
+msgid "WooCommerce Product Sidebar"
+msgstr ""
+
+#: functions.php:95 inc/redux-framework.php:436
+msgid "Footer"
+msgstr ""
+
+#: functions.php:97 functions.php:107 functions.php:117 functions.php:127
+#: functions.php:137
+msgid "Add footer widgets here."
+msgstr ""
+
+#: functions.php:105
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:115
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:125
+msgid "Footer 4"
+msgstr ""
+
+#: functions.php:135
+msgid "Footer 5"
+msgstr ""
+
+#: functions.php:155
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:226
+msgid "Redux Framework"
+msgstr ""
+
+#: functions.php:232
+msgid "Elementor"
+msgstr ""
+
+#: functions.php:239 inc/redux-framework.php:317
+msgid "WooCommerce"
+msgstr ""
+
+#: functions.php:245
+msgid "Dokan"
+msgstr ""
+
+#: functions.php:251
+msgid "Tijarah Element "
+msgstr ""
+
+#: functions.php:251
+msgid "( Licence Key Required )"
+msgstr ""
+
+#: functions.php:258
+msgid "Contact Form 7"
+msgstr ""
+
+#: functions.php:264
+msgid "CMB2"
+msgstr ""
+
+#: functions.php:270
+msgid "One Click Demo Import"
+msgstr ""
+
+#: functions.php:305
+msgid "Download Options"
+msgstr ""
+
+#: functions.php:310
+msgid "Product Type"
+msgstr ""
+
+#: functions.php:311
+msgid "Select product type"
+msgstr ""
+
+#: functions.php:316
+msgid "Digital Item"
+msgstr ""
+
+#: functions.php:317 functions.php:323
+#: woocommerce/content-single-product.php:128
+msgid "Video"
+msgstr ""
+
+#: functions.php:318 functions.php:359
+msgid "Audio"
+msgstr ""
+
+#: functions.php:324
+msgid "Upload a video mp4 preview for video product"
+msgstr ""
+
+#: functions.php:335
+msgid "Youtube Video"
+msgstr ""
+
+#: functions.php:336
+msgid "Set a youtube video url preview"
+msgstr ""
+
+#: functions.php:347
+msgid "Vimeo Video"
+msgstr ""
+
+#: functions.php:348
+msgid "Set a vimeo url preview"
+msgstr ""
+
+#: functions.php:360
+msgid "Upload an audio sample mp3 for audio product"
+msgstr ""
+
+#: functions.php:372
+msgid "Unique Features"
+msgstr ""
+
+#: functions.php:379
+msgid "Product Thumbnail"
+msgstr ""
+
+#: functions.php:380
+msgid "Product thumbnail to show in different sections ( 80x80 )"
+msgstr ""
+
+#: functions.php:390
+msgid "Preview Video URL"
+msgstr ""
+
+#: functions.php:396
+msgid "Preview Url"
+msgstr ""
+
+#: functions.php:397
+msgid "Preview Url to show in single download page"
+msgstr ""
+
+#: functions.php:403
+msgid "Sub Heading"
+msgstr ""
+
+#: functions.php:404
+msgid "Sub Heading for the item"
+msgstr ""
+
+#: functions.php:412
+msgid "Generates reusable form entries"
+msgstr ""
+
+#: functions.php:414
+msgid "FAQ {#}"
+msgstr ""
+
+#: functions.php:415
+msgid "Add Another FAQ"
+msgstr ""
+
+#: functions.php:416
+msgid "Remove FAQ"
+msgstr ""
+
+#: functions.php:422
+msgid "Title"
+msgstr ""
+
+#: functions.php:428
+msgid "Description"
+msgstr ""
+
+#: functions.php:438
+msgid "Pricing Plan"
+msgstr ""
+
+#: functions.php:446
+msgid "FontAwesome Icon"
+msgstr ""
+
+#: functions.php:474
+msgid "Feature list"
+msgstr ""
+
+#: functions.php:481
+msgid "Price"
+msgstr ""
+
+#: functions.php:489
+msgid "Button Text"
+msgstr ""
+
+#: functions.php:492
+msgid "Purchase Now"
+msgstr ""
+
+#: functions.php:504
+msgid "Default Marketplace"
+msgstr ""
+
+#: functions.php:515 functions.php:530 functions.php:545 functions.php:560
+msgid ""
+"After you import this demo, you will have to setup the slider separately."
+msgstr ""
+
+#: functions.php:519
+msgid "Stock photography"
+msgstr ""
+
+#: functions.php:534
+msgid "Stock video"
+msgstr ""
+
+#: functions.php:549
+msgid "Stock audio"
+msgstr ""
+
+#: functions.php:655
+msgid "Blog Posts"
+msgstr ""
+
+#: functions.php:707
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: header.php:45
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:84
+msgid "My Account"
+msgstr "حسابي"
+
+#: inc/activate-license.php:6 inc/activate-license.php:14
+#: inc/activate-license.php:94
+msgid "Activate License"
+msgstr ""
+
+#: inc/activate-license.php:17
+msgid "Please visit the"
+msgstr ""
+
+#: inc/activate-license.php:18
+msgid "Where Is My Purchase Code?"
+msgstr ""
+
+#: inc/activate-license.php:19
+msgid "documentation page for full setup instructions."
+msgstr ""
+
+#: inc/activate-license.php:41
+msgid "License Settings"
+msgstr ""
+
+#: inc/activate-license.php:44
+msgid "Please enter your purchase code"
+msgstr ""
+
+#: inc/activate-license.php:47
+msgid "Purchase Code"
+msgstr ""
+
+#: inc/activate-license.php:64
+msgid "Congratulations! Your theme is now successfully activated."
+msgstr ""
+
+#: inc/activate-license.php:67
+msgid "( Not activated! )"
+msgstr ""
+
+#: inc/activate-license.php:68
+#, php-format
+msgid "Enter your purchase code (e.g %s)."
+msgstr ""
+
+#: inc/activate-license.php:69
+msgid "See how to get your purchase code"
+msgstr ""
+
+#: inc/activate-license.php:93
+msgid ""
+"This theme requires license key to install core plugin and auto updates."
+msgstr ""
+
+#: inc/activate-license.php:95
+msgid "Get Your Purchase Code"
+msgstr ""
+
+#: inc/breadcrumb.php:262
+msgid "Browse:"
+msgstr ""
+
+#: inc/breadcrumb.php:263
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/breadcrumb.php:264
+msgid "Home"
+msgstr "الصفحة الرئيسية"
+
+#: inc/breadcrumb.php:265
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/breadcrumb.php:266
+msgid "Archives"
+msgstr ""
+
+#: inc/breadcrumb.php:268
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: inc/breadcrumb.php:270
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/breadcrumb.php:272
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#: inc/breadcrumb.php:274
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: inc/breadcrumb.php:276
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: inc/breadcrumb.php:736
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/breadcrumb.php:753
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/breadcrumb.php:770
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: inc/breadcrumb.php:786 inc/breadcrumb.php:815 inc/breadcrumb.php:842
+#: inc/breadcrumb.php:869 inc/breadcrumb.php:1209
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/breadcrumb.php:787 inc/breadcrumb.php:843 inc/breadcrumb.php:1213
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/breadcrumb.php:788 inc/breadcrumb.php:1217
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/breadcrumb.php:816
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: inc/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: inc/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: inc/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: inc/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:393
+#: inc/class-tgm-plugin-activation.php:912
+#: inc/class-tgm-plugin-activation.php:2618
+#: inc/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:394
+#: inc/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:395
+#: inc/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1019
+#: inc/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1206
+#: inc/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: inc/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3594
+#: inc/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3594
+#: inc/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/product-sidebar.php:49
+msgid "Sales"
+msgstr "مبيعات"
+
+#: inc/product-sidebar.php:53
+msgid "Ratings"
+msgstr "التقييمات"
+
+#: inc/product-sidebar.php:58 template-parts/content.php:42
+#: template-parts/content.php:118 template-parts/product-type/photo-item.php:7
+msgid "Views"
+msgstr "الآراء"
+
+#: inc/product-sidebar.php:71
+msgid "Specification"
+msgstr "تخصيص"
+
+#: inc/product-sidebar.php:76
+msgid "Last Update:"
+msgstr "اخر تحديث:"
+
+#: inc/product-sidebar.php:80
+msgid "Relased:"
+msgstr "صدر:"
+
+#: inc/product-sidebar.php:109
+msgid "Tags:"
+msgstr "العلامات:"
+
+#: inc/product-sidebar.php:118
+msgid "No Tags Found!"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: inc/redux-framework.php:16 inc/redux-framework.php:17
+msgid "Tijarah"
+msgstr ""
+
+#: inc/redux-framework.php:81
+msgid "General"
+msgstr ""
+
+#: inc/redux-framework.php:83
+msgid "General theme options."
+msgstr ""
+
+#: inc/redux-framework.php:89
+msgid "Preloader"
+msgstr ""
+
+#: inc/redux-framework.php:97
+msgid "Style"
+msgstr ""
+
+#: inc/redux-framework.php:99 inc/redux-framework.php:164
+msgid "Header menu options."
+msgstr ""
+
+#: inc/redux-framework.php:105
+msgid "Primary Color"
+msgstr ""
+
+#: inc/redux-framework.php:106
+msgid "Pick a color for the theme (default: #ff416c and #ff4b2b)."
+msgstr ""
+
+#: inc/redux-framework.php:119 inc/redux-framework.php:142
+msgid "Typography"
+msgstr ""
+
+#: inc/redux-framework.php:126
+msgid "Heading Typography"
+msgstr ""
+
+#: inc/redux-framework.php:127
+msgid "H1, H2, H3,H4, H5, H6  Tags"
+msgstr ""
+
+#: inc/redux-framework.php:143
+msgid "body, p Tags"
+msgstr ""
+
+#: inc/redux-framework.php:162
+msgid "Header"
+msgstr ""
+
+#: inc/redux-framework.php:170
+msgid "Full Width Header"
+msgstr ""
+
+#: inc/redux-framework.php:171
+msgid "Controls the width of the header area. "
+msgstr ""
+
+#: inc/redux-framework.php:178
+msgid "Navbar Background Color"
+msgstr ""
+
+#: inc/redux-framework.php:179
+msgid "Pick a color for background."
+msgstr ""
+
+#: inc/redux-framework.php:190
+msgid "Navbar Link"
+msgstr ""
+
+#: inc/redux-framework.php:191
+msgid "Pick a color for navbar links."
+msgstr ""
+
+#: inc/redux-framework.php:198
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/redux-framework.php:199
+msgid "Turn on to activate the sticky header."
+msgstr ""
+
+#: inc/redux-framework.php:208
+msgid "Blog Page"
+msgstr ""
+
+#: inc/redux-framework.php:215
+msgid "Breadcrumb Title"
+msgstr ""
+
+#: inc/redux-framework.php:216
+msgid "Latest news"
+msgstr ""
+
+#: inc/redux-framework.php:222
+msgid "Breadcrumb Banner Image"
+msgstr ""
+
+#: inc/redux-framework.php:223
+msgid "Uploaad an image for breadcrumb banner."
+msgstr ""
+
+#: inc/redux-framework.php:230
+msgid "Breadcrumb Title Color"
+msgstr ""
+
+#: inc/redux-framework.php:231
+msgid "Pick a color for breadcrumb title (default: #333)."
+msgstr ""
+
+#: inc/redux-framework.php:239
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/redux-framework.php:240
+msgid "Controls the excerpt length on blog page"
+msgstr ""
+
+#: inc/redux-framework.php:253
+msgid "Single Blog Page"
+msgstr ""
+
+#: inc/redux-framework.php:260 inc/redux-framework.php:386
+msgid "Social Share"
+msgstr ""
+
+#: inc/redux-framework.php:266
+msgid "Post Navigation (Next/Previous)"
+msgstr ""
+
+#: inc/redux-framework.php:272
+msgid "Show Related Post"
+msgstr ""
+
+#: inc/redux-framework.php:278
+msgid "Related Post Title"
+msgstr ""
+
+#: inc/redux-framework.php:280
+msgid "Related Post"
+msgstr ""
+
+#: inc/redux-framework.php:285
+msgid "Related Posts"
+msgstr ""
+
+#: inc/redux-framework.php:286
+msgid "Related posts per page"
+msgstr ""
+
+#: inc/redux-framework.php:287
+msgid ""
+"Number of related posts to display. Min: 1, max: Unlimited, step: 1, default "
+"value: 4"
+msgstr ""
+
+#: inc/redux-framework.php:298
+msgid "Posts Column"
+msgstr ""
+
+#: inc/redux-framework.php:299 inc/redux-framework.php:349
+#: inc/redux-framework.php:419
+msgid "Number of column"
+msgstr ""
+
+#: inc/redux-framework.php:300
+msgid "Specify the number of related posts column."
+msgstr ""
+
+#: inc/redux-framework.php:303 inc/redux-framework.php:353
+#: inc/redux-framework.php:423
+msgid "One Column"
+msgstr ""
+
+#: inc/redux-framework.php:304 inc/redux-framework.php:354
+#: inc/redux-framework.php:424
+msgid "Two Columns"
+msgstr ""
+
+#: inc/redux-framework.php:305 inc/redux-framework.php:355
+#: inc/redux-framework.php:425
+msgid "Three Columns"
+msgstr ""
+
+#: inc/redux-framework.php:306 inc/redux-framework.php:356
+#: inc/redux-framework.php:426
+msgid "Four Columns"
+msgstr ""
+
+#: inc/redux-framework.php:307 inc/redux-framework.php:357
+#: inc/redux-framework.php:427
+msgid "Six Columns"
+msgstr ""
+
+#: inc/redux-framework.php:324
+msgid "Products Per Page"
+msgstr ""
+
+#: inc/redux-framework.php:325
+msgid "Product per page"
+msgstr ""
+
+#: inc/redux-framework.php:326
+msgid ""
+"Number of products to display. Min: 1, max: Unlimited, step: 1, default "
+"value: 4"
+msgstr ""
+
+#: inc/redux-framework.php:336
+msgid "Store layout"
+msgstr ""
+
+#: inc/redux-framework.php:337 inc/redux-framework.php:350
+#: inc/redux-framework.php:420
+msgid "Specify the number of related products column."
+msgstr ""
+
+#: inc/redux-framework.php:339
+msgid "Full width"
+msgstr ""
+
+#: inc/redux-framework.php:340
+msgid "Left sidebar"
+msgstr ""
+
+#: inc/redux-framework.php:341
+msgid "Right sidebar"
+msgstr ""
+
+#: inc/redux-framework.php:348 inc/redux-framework.php:418
+msgid "Products Column"
+msgstr ""
+
+#: inc/redux-framework.php:364
+msgid "Product Hover Button Switch On"
+msgstr ""
+
+#: inc/redux-framework.php:365
+msgid "Look, it's on!"
+msgstr ""
+
+#: inc/redux-framework.php:373
+msgid "WooCommerce Single"
+msgstr ""
+
+#: inc/redux-framework.php:380
+msgid "Supported currency"
+msgstr ""
+
+#: inc/redux-framework.php:381
+msgid "Unlimited currency with drag and drop sortings."
+msgstr ""
+
+#: inc/redux-framework.php:392
+msgid "Show Related Products"
+msgstr ""
+
+#: inc/redux-framework.php:398
+msgid "Related Product Title"
+msgstr ""
+
+#: inc/redux-framework.php:400 woocommerce/single-product/related.php:19
+msgid "Related products"
+msgstr ""
+
+#: inc/redux-framework.php:405
+msgid "Related Products"
+msgstr ""
+
+#: inc/redux-framework.php:406
+msgid "Related product per page"
+msgstr ""
+
+#: inc/redux-framework.php:407
+msgid ""
+"Number of related products to display. Min: 1, max: Unlimited, step: 1, "
+"default value: 4"
+msgstr ""
+
+#: inc/redux-framework.php:443
+msgid "Footer widget display"
+msgstr ""
+
+#: inc/redux-framework.php:449
+msgid "Back to top"
+msgstr ""
+
+#: inc/redux-framework.php:455
+msgid "Copyright text"
+msgstr ""
+
+#: inc/redux-framework.php:456
+msgid ""
+"Enter your company information here. HTML tags allowed: a, br, em, strong"
+msgstr ""
+
+#: inc/redux-framework.php:457
+msgid "Copyright © 2020 tijarah All Rights Reserved."
+msgstr ""
+
+#: inc/redux-framework.php:469
+msgid "404 Error"
+msgstr ""
+
+#: inc/redux-framework.php:476
+msgid "Error title"
+msgstr ""
+
+#: inc/redux-framework.php:477
+msgid "Oops! That page can’t be found."
+msgstr ""
+
+#: inc/redux-framework.php:482
+msgid "Error message"
+msgstr ""
+
+#: inc/redux-framework.php:483
+msgid "Enter \"not found\" error message."
+msgstr ""
+
+#: inc/update-checker.php:70
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: inc/update-checker.php:75
+msgid "An unknown error occurred"
+msgstr ""
+
+#: inc/woocommerce.php:183 inc/woocommerce.php:325
+msgid "Free"
+msgstr ""
+
+#: inc/woocommerce.php:206
+msgid "FAQ"
+msgstr ""
+
+#: inc/woocommerce.php:298
+msgid "Preview"
+msgstr "معاينة"
+
+#: inc/woocommerce.php:302
+msgid "Details"
+msgstr "تفاصيل"
+
+#: inc/woocommerce.php:339
+msgid "View your shopping cart"
+msgstr ""
+
+#. translators: number of items in the mini cart.
+#: inc/woocommerce.php:343
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d بند  "
+msgstr[1] "%d بند "
+msgstr[2] "%d عنصرين "
+msgstr[3] "%d العناصر "
+msgstr[4] "%d العناصر "
+msgstr[5] "%d العناصر "
+
+#: inc/woocommerce.php:382
+msgid "Invalid product."
+msgstr ""
+
+#: inc/woocommerce.php:477 inc/woocommerce.php:492
+msgid "Choose an option"
+msgstr ""
+
+#: single.php:33
+msgid "&#171; Previous Post"
+msgstr ""
+
+#: single.php:34
+msgid "Next Post &#187;"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:25 template-parts/content.php:65
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:38
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: template-parts/content.php:28 template-parts/content.php:104
+msgid "by"
+msgstr ""
+
+#: template-parts/content.php:31 template-parts/content.php:107
+#, php-format
+msgctxt "comments title"
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:54
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/content.php:130
+msgid "Read More"
+msgstr "قراءة المزيد"
+
+#: template-parts/product-type/video-item.php:37
+msgid "View detail"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:47
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:116
+msgid "No products in the cart."
+msgstr "لا توجد منتجات في العربة."
+
+#: woocommerce/content-single-product.php:61
+#: woocommerce/content-single-product.php:80
+#: woocommerce/content-single-product.php:94
+msgid "Download"
+msgstr ""
+
+#: woocommerce/content-single-product.php:122
+msgid "Live Preview"
+msgstr ""
+
+#: woocommerce/content-single-product.php:125
+msgid "Screenshots"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:52
+msgid "There are no reviews yet."
+msgstr ""
+
+#. translators: %s is product title
+#: woocommerce/single-product-reviews.php:63
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:63
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: %s is product title
+#: woocommerce/single-product-reviews.php:65
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:69
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:77
+msgid "Name"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:83
+msgid "Email"
+msgstr ""
+
+#. translators: %s opening and closing link tags respectively
+#: woocommerce/single-product-reviews.php:108
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:112
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:113
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:114
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:115
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:116
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:117
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:118
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:122
+msgid "Your review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:129
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:45
+msgid "Clear"
+msgstr ""
+
+#: woocommerce/single-product/review.php:36
+msgid " ago"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://themebing.com/wp/tijarah"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Tijarah is Digital Marketplace WordPress Theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeBing"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themeforest.net/user/themebing"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Custom Home Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Custom Page With Sidebar"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Custom Page Without Sidebar"
+msgstr ""
